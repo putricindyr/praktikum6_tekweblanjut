@@ -13,7 +13,7 @@
               <div class="card-header"><h3>Create Account</h3></div>
 
               <div class="card-body">
-                <form action="<?= base_url('user/regis')?>"
+                <form action="<?= base_url('User/regis')?>"
                 method="POST">
                   <div class="row">
                     <div class="form-group col-6">
@@ -64,7 +64,7 @@
               </div>
             </div>
             <div class="mt-5 text-muted text-center">
-              Already have an account? <a href="<?= base_url('user/index') ?>">Login</a>
+            Already have an account? <a href="<?= base_url('User/index') ?>">Login</a>
             </div>
             <div class="simple-footer">
             </div>

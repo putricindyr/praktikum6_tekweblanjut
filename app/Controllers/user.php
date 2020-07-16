@@ -42,6 +42,6 @@ class User extends BaseController
        
         session()-> setFlashdata('message','Register');
 
-        return redirect() -> to(base_url('user'));
+        return redirect() -> to(base_url('User'));
     }
 }

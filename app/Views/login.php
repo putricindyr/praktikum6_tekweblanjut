@@ -1,3 +1,5 @@
+
+
 <body>
   <div id="app">
     <section class="section">
@@ -28,7 +30,7 @@
                     <label for="email">Email</label>
                     <input id="email" type="email" class="form-control" name="email" tabindex="1" required autofocus>
                     <div class="invalid-feedback">
-                    Please fill in your email 
+                      Please fill in your email 
                     </div>
                   </div>
 
@@ -38,7 +40,7 @@
                     </div>
                     <input id="password" type="password" class="form-control" name="password" tabindex="2" required>
                     <div class="invalid-feedback">
-                      Forgot Password?
+                      Please fill your password
                     </div>
 
                   <div class="form-group"><br>
@@ -80,7 +82,7 @@
 							if ( $cek_password <> $password ) {
 								echo"<script>alert('Wrong Password')</script>";
 							} else {
-								echo"<script>document,location.href='welcome.php'</script>";
+								echo"<script>document,location.href='user_data/index'</script>";
 							}
 
 						} else {
@@ -92,7 +94,7 @@
               </div>
             </div>
             <div class="mt-5 text-muted text-center">
-            Don't have an account? <a href="<?= base_url('user/register') ?>">Create Account</a>
+              Don't have an account? <a href="<?= base_url('User/register') ?>">Create Account</a>
             </div>
             <div class="simple-footer">
             </div>
